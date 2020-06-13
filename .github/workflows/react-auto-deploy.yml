@@ -34,4 +34,4 @@ jobs:
     - name: MAKING BUILD FOLDER
       run: yarn build
     - name: DEPLOYING
-      run: surge ./build react-auto-deploy.surge.sh --token ${{ secrets.MY_SECRET }}  
+      run: surge ./build my-todoapp-react.surge.sh --token ${{ secrets.MY_SECRET }}  
