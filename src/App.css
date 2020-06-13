@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cross {
+  text-decoration: line-through;
+}
+
+.my-border {
+  border: 3px solid rgb(86, 220, 243);
+  width: 400px;
+  margin: 5px auto;
+}
+
+.pad {
+  padding: 5px;
 }
